@@ -73,14 +73,7 @@ public class StreamOptTest {
         //key为: false value为： [Apple{id=1, name='苹果1', money=3.25, num=10, isLike=''}, Apple{id=1, name='苹果2', money=1.35, num=20, isLike=''}]
         //key为: true value为： [Apple{id=2, name='香蕉', money=2.89, num=30, isLike=''}, Apple{id=3, name='荔枝', money=9.99, num=40, isLike=''}]
         //分区 数量大于20 true 和 小于等于20 false
-
-
-
     }
-
-
-
-
 
     static class Apple{
         private Integer id;
